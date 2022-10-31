@@ -60,9 +60,9 @@ global.faall = fs.readFileSync('./media/image/fake.jpg')
 
 // Url
 global.mygit = 'https://github.com/mscrekomenworld'
-global.myyt = 'https://youtube.com/channel/UCY89Fb9pCVUeMqEGikvOhNQ'
+global.myyt = 'https://youtube.com/channel/UCndzTBwRZLM-x2FE7XMNxVg'
 global.myytv = 'https://youtu.be/FAsL-Jy4qLc'
-global.mygc = "https://chat.whatsapp.com/I1mlONQxvBlIk5lK7MnOfk"
+global.mygc = "https://chat.whatsapp.com/CeOJaWD1xLT6g6rJXczWH7"
 
 // Engak Ngaruh, Belum Kepasang
 global.botname = '𝕱𝖆𝖆𝖙𝕭𝖔𝖙𝖟'
