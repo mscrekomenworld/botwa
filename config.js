@@ -66,8 +66,8 @@ global.mygc = "https://chat.whatsapp.com/I1mlONQxvBlIk5lK7MnOfk"
 
 // Engak Ngaruh, Belum Kepasang
 global.botname = '𝕱𝖆𝖆𝖙𝕭𝖔𝖙𝖟'
-global.akulaku = 'Bot By FaatKebab'
-global.ytname = 'YT FaatKebab' //Kalo Ngk Punya Yt Ngak Usah Di Ganti
+global.akulaku = 'Bot By FaatBotz'
+global.ytname = 'YT FaatBotz' //Kalo Ngk Punya Yt Ngak Usah Di Ganti
 
 
 let file = require.resolve(__filename)
