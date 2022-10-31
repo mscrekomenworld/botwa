@@ -116,15 +116,15 @@ async function startNaze() {
        }
        let wm_nazedev = { url : ppgc }
        if (pea[0].announce == true) {
-       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nGroup telah ditutup oleh admin, Sekarang hanya admin yang dapat mengirim pesan !`, `Group Settings Change Message by AnggaXyzz`, wm_nazedev, [])
+       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nGroup telah ditutup oleh admin, Sekarang hanya admin yang dapat mengirim pesan !`, `Group Settings Change Message by 𝕱𝖆𝖆𝖙𝖐𝖊𝖇𝖆𝖇`, wm_nazedev, [])
        } else if(pea[0].announce == false) {
-       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nGroup telah dibuka oleh admin, Sekarang peserta dapat mengirim pesan !`, `Group Settings Change Message by AnggaXyzz`, wm_nazedev, [])
+       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nGroup telah dibuka oleh admin, Sekarang peserta dapat mengirim pesan !`, `Group Settings Change Message by 𝕱𝖆𝖆𝖙𝖐𝖊𝖇𝖆𝖇`, wm_nazedev, [])
        } else if (pea[0].restrict == true) {
-       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nInfo group telah dibatasi, Sekarang hanya admin yang dapat mengedit info group !`, `Group Settings Change Message by AnggaXyzz`, wm_nazedev, [])
+       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nInfo group telah dibatasi, Sekarang hanya admin yang dapat mengedit info group !`, `Group Settings Change Message by 𝕱𝖆𝖆𝖙𝖐𝖊𝖇𝖆𝖇`, wm_nazedev, [])
        } else if (pea[0].restrict == false) {
-       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nInfo group telah dibuka, Sekarang peserta dapat mengedit info group !`, `Group Settings Change Message by AnggaXyzz`, wm_nazedev, [])
+       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nInfo group telah dibuka, Sekarang peserta dapat mengedit info group !`, `Group Settings Change Message by 𝕱𝖆𝖆𝖙𝖐𝖊𝖇𝖆𝖇`, wm_nazedev, [])
        } else {
-       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nGroup Subject telah diganti menjadi *${pea[0].subject}*`, `Group Settings Change Message by AnggaXyzz`, wm_nazedev, [])
+       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nGroup Subject telah diganti menjadi *${pea[0].subject}*`, `Group Settings Change Message by 𝕱𝖆𝖆𝖙𝖐𝖊𝖇𝖆𝖇`, wm_nazedev, [])
      }
     })
 
@@ -155,14 +155,14 @@ async function startNaze() {
                 try {
                     ppgroup = await naze.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+                    ppgroup = 'https://i0.wp.com/kamusnetizen.com/wp-content/uploads/2021/12/70d01adee6dde5dc16bedafe6d14217b.jpg'
                 }
                 
-                let butwel = [{ buttonId: 'menu', buttonText: { displayText: 'WELCOME' }, type: 1 }]
-                let butleav = [{ buttonId: 'subsyt', buttonText: { displayText: 'Sayonara👋' }, type: 1 }]
-                let butselamat = [{ buttonId: '', buttonText: { displayText: 'SELAMAT' }, type: 1 }]
-                let butsebar = [{ buttonId: '', buttonText: { displayText: 'SABAR' }, type: 1 }]
-                let nyoutube = ('© AnggaXyzz\nYoutube/Sc :\nhttps://youtube.com/channel/UCY89Fb9pCVUeMqEGikvOhNQ')
+                let butwel = [{ buttonId: 'menu', buttonText: { displayText: 'WELCOME BANH' }, type: 1 }]
+                let butleav = [{ buttonId: 'subsyt', buttonText: { displayText: 'GOODBYE BANH👋' }, type: 1 }]
+                let butselamat = [{ buttonId: '', buttonText: { displayText: 'SELAMAT BANH' }, type: 1 }]
+                let butsebar = [{ buttonId: '', buttonText: { displayText: 'SABAR BANH' }, type: 1 }]
+                let nyoutube = ('© AnggaXyzz\nYoutube/Sc :\nhttps://www.youtube.com/channel/UCndzTBwRZLM-x2FE7XMNxVg')
                 let teks1 = `*Halo Kak @${num.split('@')[0]}*\n*Selamat Datang Di Grup*\n*${metadata.subject}*\n*Jangan Lupa Intro Yahh*\n_~Admin_`
                 let teks2 = `*Selamat Tinggal Kak @${num.split('@')[0]}*\n*Semoga Tenang Di Alam Sana*\n_~Admin_`
                 let teks3 = `*@${num.split('@')[0]} Promote From*\n*${metadata.subject}*\n*Selamat Anda Menjadi Admin*\n_~Jangan Semena Mena!_`
